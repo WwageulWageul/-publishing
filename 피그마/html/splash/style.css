@@ -1,0 +1,95 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  background: #a9d537;
+  border-radius: 50px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.c {
+  background: #a9d537;
+  border-radius: 30px;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  left: 59px;
+  top: 262px;
+  overflow: hidden;
+}
+.vector-2 {
+  width: 1785px;
+  height: 0px;
+  position: absolute;
+  left: 97px;
+  top: 2953px;
+  overflow: visible;
+}
+.hong-seung-yoon-ux-researcher-portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 17px;
+  line-height: 170%;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 97px;
+  top: 2957px;
+  width: 463px;
+}
+.image-210 {
+  width: 158px;
+  height: 75px;
+  position: absolute;
+  left: 18px;
+  top: 51px;
+}
+.image-211 {
+  width: 148px;
+  height: 75px;
+  position: absolute;
+  left: 88px;
+  top: 128px;
+  object-fit: cover;
+}
+.image-212 {
+  width: 148px;
+  height: 75px;
+  position: absolute;
+  left: 20px;
+  top: 53px;
+  object-fit: cover;
+}
+.div2 {
+  color: #f3f3f2;
+  text-align: left;
+  font-family: "Pretendard-ExtraBold", sans-serif;
+  font-size: 32px;
+  line-height: 170%;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+  position: absolute;
+  left: 75px;
+  top: 227px;
+}
+.rectangle-4297 {
+  background: #f3f3f2;
+  border-radius: 10px;
+  width: 253px;
+  height: 7px;
+  position: absolute;
+  left: 61px;
+  top: 500px;
+}
+.rectangle-4298 {
+  background: #339846;
+  border-radius: 10px;
+  width: 180px;
+  height: 7px;
+  position: absolute;
+  left: 61px;
+  top: 500px;
+}
