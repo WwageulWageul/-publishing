@@ -1,0 +1,160 @@
+.join_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#join_go label {
+    color: #000000;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    display: inline-block;
+    width: 60px;
+}
+
+#join_go input.join_num,
+#join_go input.name_id,
+#join_go input.number {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+    height: 30px;
+    overflow: hidden;
+}
+
+
+
+#join_go input.name_id {
+    width: calc(100% - 60px);
+}
+
+.input_wrap svg {
+    filter: invert(84%) sepia(2%) saturate(8%) hue-rotate(341deg) brightness(87%) contrast(85%);
+}
+
+.date-container {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    width: 106px;
+}
+
+.date-container input {
+    width: 76px;
+    text-align: center;
+}
+
+.date-container input::placeholder {
+    text-align: center;
+}
+
+#join_go input.name_id::placeholder,
+#join_go input.number::placeholder,
+#join_go input.join_num::placeholder {
+    padding: 0 0 0 15px;
+}
+
+#join_go input::placeholder {
+    color: #b2b2b2;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#join_go .two_wrap {
+    display: flex;
+    /* width:100%; */
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rows {
+    display: flex;
+    gap: -2px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#join_go select {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    color: #b2b2b2;
+    text-align: center;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#join_go .btn_01 {
+    background: #f1f1f1;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #919191;
+    border-width: 1px;
+    width: 104px;
+    height: 30px;
+    color: #959292;
+    text-align: center;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+}
+
+#join_go .btn_02 {
+    background: #a1cb3f;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #e5e5ec;
+    border-width: 1px;
+    width: calc(100% - 40px);
+    height: 55px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    /* margin: 0 20px; */
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#join_go .btn_03 {
+    background: #919191;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #919191;
+    border-width: 1px;
+    width: 104px;
+    height: 30px;
+    color: #f1f1f1;
+    text-align: center;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+}
