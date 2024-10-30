@@ -9,6 +9,7 @@ body {
 	position: relative;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	margin-bottom: 80px;
 }
 
 .sr-only {
@@ -125,7 +126,6 @@ body {
 	font-size: 10px;
 	line-height: 22px;
 	font-weight: 400;
-	/* position: absolute; */
 	left: 9px;
 	top: 43px;
 	width: 45px;
@@ -150,4 +150,8 @@ body {
 .nav li a:hover img,
 .nav li a:active img {
 	filter: invert(48%) sepia(10%) saturate(3036%) hue-rotate(79deg) brightness(99%) contrast(81%);
+}
+
+.list_wrap {
+	margin-bottom: 20px;
 }
