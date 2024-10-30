@@ -1,11 +1,12 @@
-<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_184_1078)">
-<path d="M15.2754 13.6606C15.2754 17.6544 18.5138 20.8928 22.4995 20.8928C26.4852 20.8928 29.7236 17.6544 29.7236 13.6606C29.7236 9.66686 26.4852 6.42847 22.4995 6.42847C18.5138 6.42847 15.2754 9.66686 15.2754 13.6606Z" stroke="#606060" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M7.23242 36.9642V31.8776C7.23242 28.1731 10.4949 24.9106 14.1914 24.9106H31.3396C35.036 24.9106 37.7681 28.1812 37.7681 31.8776V36.9642" stroke="#606060" stroke-width="2" stroke-miterlimit="10"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M14.9,14.3c0,4,3.2,7.2,7.2,7.2s7.2-3.2,7.2-7.2s-3.2-7.2-7.2-7.2S14.9,10.3,14.9,14.3z"/>
+	<path class="st0" d="M6.8,37.6v-5.1c0-3.7,3.3-7,7-7h17.1c3.7,0,6.4,3.3,6.4,7v5.1"/>
 </g>
-<defs>
-<clipPath id="clip0_184_1078">
-<rect width="45" height="45" fill="white"/>
-</clipPath>
-</defs>
 </svg>
