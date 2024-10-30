@@ -297,3 +297,20 @@
 	max-width: 60px;
 	width: auto;
 }
+
+.bell_wrap {
+	position: relative;
+}
+
+.alert {
+	background: #339846;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	left: 62%;
+	top: 0;
+}
