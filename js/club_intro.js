@@ -4,10 +4,9 @@ $(document).ready(function () {
     autoplay: {
       delay: 3000,
     },
+    spaceBetween: 10,
   });
-});
 
-$(document).ready(function () {
   $(".tab-item").on("click", function () {
     $(".tab-item").removeClass("active");
     $(this).addClass("active");
