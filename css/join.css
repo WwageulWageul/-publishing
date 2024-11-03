@@ -48,6 +48,8 @@
     overflow: hidden;
     text-align: center;
     width: 106px;
+    display: flex;
+    align-items: center;
 }
 
 .date-container input {
@@ -135,7 +137,6 @@
     line-height: 24px;
     letter-spacing: -0.025em;
     font-weight: 500;
-    /* margin: 0 20px; */
     position: absolute;
     top: 77%;
     left: 50%;
