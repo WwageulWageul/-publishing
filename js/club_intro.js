@@ -1,9 +1,6 @@
 $(document).ready(function () {
   var swiper = new Swiper(".swiper-container", {
     loop: true,
-    autoplay: {
-      delay: 3000,
-    },
     spaceBetween: 10,
   });
 
@@ -14,5 +11,10 @@ $(document).ready(function () {
     var tabId = $(this).data("tab");
     $(".tab-panel").removeClass("active");
     $("#" + tabId).addClass("active");
+  });
+
+  $(".toggle-comments").on("click", function (event) {
+    event.preventDefault();
+    $(".comment_section").toggle();
   });
 });

@@ -12,20 +12,13 @@
     <link href="../share/font.css" rel="stylesheet" type="text/css" />
     <link href="../css/club_intro.css" rel="stylesheet" type="text/css" />
     <link href="../css/common.css" rel="stylesheet" type="text/css " />
-    <script src="../js/club_intro.js" type="text/javascript"></script>
     <link
       href="../plugin/plugin/swiper-bundle.min.css"
       rel="stylesheet"
       type="text/css "
     />
-    <script
-      src="../plugin/plugin/swiper-bundle.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="../plugin/plugin/jquery-3.7.1.min.js"
-      type="text/javascript"
-    ></script>
+    <script src="../plugin/plugin/swiper-bundle.min.js"></script>
+    <script src="../plugin/plugin/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="../plugin/plugin/jquery-ui.css" />
     <script src="../plugin/plugin/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="../plugin/plugin/all.min.css" />
@@ -33,6 +26,7 @@
   </head>
 
   <body>
+    <script src="../js/club_intro.js"></script>
     <div id="wrap">
       <div id="header">
         <span class="arrow"
@@ -114,9 +108,6 @@
               <div class="list_wrap">
                 <div class="list_tit">
                   <h2>정기 모임</h2>
-                  <span class="more"
-                    >더보기<img src="../img/common/go.svg" alt="더보기"
-                  /></span>
                 </div>
                 <div class="list_line">
                   <div class="img_left">
@@ -124,8 +115,16 @@
                   </div>
                   <div class="right_cont">
                     <span class="category">스포츠/운동</span>
-                    <h4>노인과 등산모임</h4>
-                    <p class="explain">60대 이하는 받지 않아요^^</p>
+                    <div class="ex_club_about">
+                      <h4>설악산 등반</h4>
+                      <div class="when">
+                        <p>
+                          <span class="date">9/30 (월)</span
+                          ><span class="time_about"> 오후 9:30</span>
+                        </p>
+                        <p>비용 <span class="price">5,000원</span></p>
+                      </div>
+                    </div>
                     <div class="bottom_end">
                       <span class="live">설악산</span
                       ><span class="people"
@@ -133,14 +132,129 @@
                           src="../img/common/Group.svg"
                           alt="인원"
                         />30명</span
-                      ><span class="time_act">방금 활동</span>
+                      >
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="like_wrap">
+                <a href="#this" class="like_btn"
+                  ><img src="../img/club_intro/like.svg" alt="찜" /></a
+                ><button class="btn_02">가입신청</button>
+              </div>
             </div>
             <div id="tab2" class="tab-panel">
-              <p>탭 2 내용입니다.</p>
+              <div class="notice_warp">
+                <span
+                  ><img src="../img/club_intro/notice.png" alt="공지"
+                /></span>
+                <p>
+                  (노인과 등산모임) 필독 공지사항!! 등산 가실 때,
+                  주의사항입니다.
+                </p>
+              </div>
+              <div class="board_wrapper">
+                <div class="board_cont">
+                  <span class="board_pro"
+                    ><img src="../img/club_intro/pro_01.png" alt="프로필"
+                  /></span>
+                  <div class="cont_wrap">
+                    <div class="tit_name">
+                      <p>큰곰</p>
+                      <span>30분 전</span>
+                    </div>
+                    <div class="text_board">
+                      <p>
+                        얘들아, 이번 주말에 산 타러 갈 건데 같이 가자!
+                        <br />
+                        곰이가 좋은 코스 찾아놨으니까, 다 같이 가서 자연도
+                        느끼고 스트레스도 풀자!
+                        <br />
+                        맛있는 간식도 챙겨갈 테니까 걱정 말고 편하게 와~!
+                      </p>
+                    </div>
+                    <div class="bottom_sign">
+                      <div class="like_sign">
+                        <a href="#this">
+                          <span
+                            ><img
+                              src="../img/club_intro/like_sm.svg"
+                              alt="좋아요"
+                          /></span>
+                          <p>12</p>
+                        </a>
+                      </div>
+                      <div class="said_sign">
+                        <a href="#this">
+                          <span
+                            ><img src="../img/club_intro/said.svg" alt="댓글"
+                          /></span>
+                          <p>35</p>
+                        </a>
+                      </div>
+
+                      <div class="share_sign">
+                        <a href="#this">
+                          <span
+                            ><img src="../img/club_intro/share.svg" alt="공유"
+                          /></span>
+                          <p>3</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="comment_section" style="display: none">
+                      <p>여기에 댓글을 입력하세요...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="board_cont">
+                  <span class="board_pro"
+                    ><img src="../img/club_intro/pro_02.png" alt="프로필"
+                  /></span>
+                  <div class="cont_wrap">
+                    <div class="tit_name">
+                      <p>학</p>
+                      <span>24년 3월 15일</span>
+                    </div>
+                    <div class="text_board">
+                      <p>바보곰과 함께</p>
+                      <img
+                        src="../img/club_intro/board_img.png"
+                        alt="게시물 이미지"
+                        class="img_board_01"
+                      />
+                    </div>
+                    <div class="bottom_sign">
+                      <div class="like_sign">
+                        <a href="#this">
+                          <span
+                            ><img
+                              src="../img/club_intro/like_sm.svg"
+                              alt="좋아요"
+                          /></span>
+                          <p>12</p>
+                        </a>
+                      </div>
+                      <div class="said_sign">
+                        <a href="#this">
+                          <span
+                            ><img src="../img/club_intro/said.svg" alt="댓글"
+                          /></span>
+                          <p>35</p>
+                        </a>
+                      </div>
+                      <div class="share_sign">
+                        <a href="#this">
+                          <span
+                            ><img src="../img/club_intro/share.svg" alt="공유"
+                          /></span>
+                          <p>3</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div id="tab3" class="tab-panel">
               <p>탭 3 내용입니다.</p>
